@@ -1,11 +1,15 @@
-let str = `
-011-4235-2343
-Thewdsd@gmail.com
-https://naver.com/?s=frozen
+const str = `
+010-1234-5678
+thesecon@gmail.com
+https://www.naver.com
+the quick brown fox jump over the lazy dog.
 abbcccdddd
-the quick brown fox jumps over the lazy dog.
-http:localhost:1234
+http://localhost:1234'
+동해물과_백두산이 마르고 닳도록
 `
+const h = `  the hello  world   !
 
-
-console.log(str.match(/\w{2,3}/g))
+`
+console.log(
+  h.replace(/\s/g, '')
+)
